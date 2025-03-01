@@ -1,0 +1,18 @@
+2025-02-27 12:00:01 | AuthService | HIGH | failed login attempt for user 'admin' from 192.168.1.10 | Details
+2025-02-27 12:00:05 | WebServer | MEDIUM | unauthorized access detected on /admin panel | Details
+2025-02-27 12:00:10 | SIEMAgent | CRITICAL | Malicious activity detected: Potential ransomware execution | Details
+2024-03-01 10:15:30 User 'john_doe' logged in successfully from IP 192.168.1.100
+2024-03-01 10:16:00 Failed login attempt for user 'admin' from IP 192.168.1.105
+2024-03-01 10:16:30 Unauthorized access detected in module 'finance'
+2024-03-01 10:17:15 User 'alice' performed a valid transaction of $500
+2024-03-01 10:18:00 Malicious activity detected from IP 203.0.113.5
+2024-03-01 10:18:45 Authentication failure: Incorrect password for user 'root'
+2024-03-01 10:19:20 Access denied for user 'guest' on database 'secure_db'
+2024-03-01 10:20:05 Server restarted successfully at 10:20 AM
+2024-03-01 10:21:30 Suspicious login attempt detected for user 'admin'
+2024-03-01 10:22:00 User 'bob' updated profile information
+2024-03-01 10:22:30 Brute force attempt detected for account 'administrator'
+2024-03-01 10:23:15 File 'config.yaml' modified successfully
+Mar 01 2024 10:24:00 User 'charlie' signed out
+2024-03-01 10:24:45 Invalid password entered for user 'support'
+
