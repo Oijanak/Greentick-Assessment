@@ -1,7 +1,6 @@
-### Prerequisites
+## Prerequisites
 
-- Java Development Kit (JDK) installed (version 11 or higher).
-- An existing log file that you want to monitor in the file path of System Monitor.
+- Java Development Kit (JDK) installed (version 11 or higher) and Set up JAVA_HOME environment variable
 
 ## Clone the Repository and navigate to project directory
 
