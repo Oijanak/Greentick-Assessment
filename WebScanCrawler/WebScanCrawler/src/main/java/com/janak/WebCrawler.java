@@ -7,5 +7,6 @@ public class WebCrawler {
         System.out.println("Enter URL");
         String url = scanner.nextLine();
         CrawlHelper.crawl(url, url);
+        scanner.close();
     }
 }

@@ -15,11 +15,6 @@ The program continuously monitors the log file, and whenever it detects a suspic
 
 ## Steps to Run
 
-### Prerequisites
-
-- Java Development Kit (JDK) installed (version 8 or higher).
-- An existing log file that you want to monitor in the file path of System Monitor.
-
 ### 1. Compile the Java Code
 
 ```bash

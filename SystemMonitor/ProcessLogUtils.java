@@ -54,7 +54,7 @@ class ProcessLogUtils {
                 }
 
                
-                Thread.sleep(1000); // 1 second
+                Thread.sleep(1000); 
             }
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
