@@ -20,20 +20,27 @@ The program continuously monitors the log file, and whenever it detects a suspic
 - Java Development Kit (JDK) installed (version 8 or higher).
 - An existing log file that you want to monitor in the file path of System Monitor.
 
-### 1. Clone or Download the Project
-
-Clone the project repository or download the files into your local machine.
-
-### 2. Compile the Java Code
-
-Use the following command to compile the `ProcessLogUtils` class:
+### 1. Compile the Java Code
 
 ```bash
+cd SystemMonitor
 javac SystemMonitor.java
 java SystemMonitor
 ```
 
-### 3. Monitor Output and Stop
+### 2. Monitor Output and Stop
 
 - The program will display alerts on the console and write them to the alert log file.
 - Press Ctrl + C to stop the program from monitoring the log file.
+
+## Assumptions
+
+- The log file is continuously growing, and the program will monitor only new entries after the last read.
+- Timestamps in the log entries are in one of the predefined formats specified in the TIMESTAMP_PATTERNS array.
+- The suspicious patterns are hardcoded in the SUSPICIOUS_PATTERNS array, and only these patterns will be detected.
+- The system will continue running until manually stopped (e.g., via Ctrl + C).
+
+## Limitations
+
+- The program only checks for the suspicious patterns specified in the code. If you want to monitor additional patterns, you will need to modify the SUSPICIOUS_PATTERNS array.
+- The program checks for the most common timestamp formats but may miss other timestamp formats that don't match the predefined patterns.
