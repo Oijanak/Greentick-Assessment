@@ -31,7 +31,6 @@ For Unix/Mac
 ```
 
 For Window
-For Unix/Mac
 
 ```bash
 mvnw.cmd clean install
