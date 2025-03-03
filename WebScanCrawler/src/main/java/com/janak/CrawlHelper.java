@@ -141,12 +141,9 @@ public class CrawlHelper {
     private static void checkForms(Document document, String url) {
         Elements forms = document.select("form");
         for (Element form : forms) {
-            String action = form.attr("action");
+            
             String method = form.attr("method").toUpperCase();
 
-            if (action.isEmpty()) {
-                System.out.println("- FORM WITHOUT ACTION ATTRIBUTE: " + url);
-            }
             if (method.equals("GET")) {
                 System.out.println("- FORM WITH INSECURE METHOD (GET): " + url);
             }

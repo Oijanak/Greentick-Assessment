@@ -5,6 +5,6 @@
 ## Clone the Repository and navigate to project directory
 
 ```bash
-git clone git@github.com:Oijanak/Greentick-Assessment.git
+git clone https://github.com/Oijanak/Greentick-Assessment.git
 cd Greentick-Assessment
 ```
